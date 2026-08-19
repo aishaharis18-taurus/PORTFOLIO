@@ -1,0 +1,2515 @@
+                 /* NAVBAR  */
+@media (max-width: 991px) {
+
+    .portfolio-navbar {
+        padding: 10px 0;
+    }
+
+    .portfolio-navbar > .container {
+        width: 94%;
+        min-height: 70px;
+        padding: 0 18px;
+        border-radius: 15px;
+    }
+
+    .portfolio-logo {
+        font-size: 25px;
+    }
+
+    .navbar-toggler {
+        width: 44px;
+        height: 44px;
+    }
+
+    .portfolio-navbar .navbar-collapse {
+        margin-top: 12px;
+        padding: 12px;
+        background: var(--navbar-color);
+        border: 1px solid var(--border-color);
+        border-radius: 14px;
+        box-shadow: 0 8px 25px var(--shadow-color);
+    }
+
+    .portfolio-navbar .navbar-nav {
+        width: 100%;
+        margin: 0 !important;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 3px;
+    }
+
+    .portfolio-navbar .nav-link {
+        width: 100%;
+        padding: 11px 14px !important;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .theme-toggle {
+        width: 42px;
+        height: 42px;
+        margin: 10px 0 0;
+        font-size: 19px;
+    }
+}
+@media (max-width: 576px) {
+
+    .portfolio-navbar {
+        padding: 7px 0;
+    }
+
+    .portfolio-navbar > .container {
+        width: 94%;
+        min-height: 64px;
+        padding: 0 14px;
+        border-radius: 13px;
+    }
+
+    .portfolio-logo {
+        font-size: 22px;
+    }
+
+    .portfolio-logo::after {
+        bottom: -6px;
+        width: 18px;
+        height: 2px;
+    }
+
+    .navbar-toggler {
+        width: 40px;
+        height: 40px;
+        border-radius: 9px;
+    }
+
+    .hamburger-icon {
+        width: 20px;
+        height: 16px;
+    }
+
+    .portfolio-navbar .navbar-collapse {
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 12px;
+    }
+
+    .portfolio-navbar .nav-link {
+        padding: 10px 12px !important;
+        font-size: 15px;
+    }
+
+    .theme-toggle {
+        width: 40px;
+        height: 40px;
+        margin-top: 9px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 360px) {
+
+    .portfolio-navbar > .container {
+        width: 96%;
+        padding: 0 11px;
+    }
+
+    .portfolio-logo {
+        font-size: 20px;
+    }
+
+    .navbar-toggler {
+        width: 38px;
+        height: 38px;
+    }
+
+    .portfolio-navbar .nav-link {
+        font-size: 14px;
+    }
+}
+@keyframes navbarOpen {
+    from {
+        opacity: 0;
+        transform: translateY(-12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes navItemShow {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* HERO RESPONSIVE */
+@media (max-width: 991px) {
+
+    .hero-section {
+        min-height: auto;
+        padding: 70px 20px;
+        text-align: center;
+    }
+
+    .hero-section .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* IMAGE FIRST */
+    .hero-section .hero-image-wrapper {
+        order: 1;
+        width: 280px;
+        height: 280px;
+        margin: 0 auto 25px;
+    }
+
+    /* SOCIAL SECOND */
+    .hero-section .hero-social {
+        order: 2;
+        justify-content: center;
+        margin: 0 auto 30px;
+    }
+
+    .hero-social a {
+        width: 150px;
+        height: 55px;
+        border-radius: 30px;
+        font-size: 20px;
+    }
+
+    /* INTRO THIRD */
+    .hero-section .hero-content {
+        order: 3;
+    }
+
+    .hero-badge {
+        margin-bottom: 18px;
+    }
+
+    .hero-title {
+        font-size: clamp(2.4rem, 6vw, 3.5rem);
+    }
+
+    .hero-description {
+        max-width: 650px;
+        margin: 20px auto 0;
+        font-size: 16px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .hero-btn {
+        padding: 15px 25px;
+        font-size: 17px;
+    }
+}
+@media (max-width: 576px) {
+
+    .hero-section {
+        min-height: auto;
+        padding: 55px 15px;
+    }
+
+    /* IMAGE */
+    .hero-section .hero-image-wrapper {
+        width: 230px;
+        height: 230px;
+        margin-bottom: 22px;
+    }
+
+    .profile-img {
+        border-width: 6px;
+    }
+
+    /* SOCIAL LINKS */
+    .hero-section .hero-social {
+        width: 100%;
+        gap: 10px;
+        margin-bottom: 28px;
+    }
+
+    .hero-social a {
+        width: 140px;
+        height: 52px;
+        border-radius: 28px;
+        font-size: 19px;
+    }
+
+    /* INTRO */
+    .hero-badge {
+        padding: 7px 13px;
+        margin-bottom: 16px;
+        font-size: 12px;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+        line-height: 1.15;
+        letter-spacing: -0.8px;
+    }
+
+    .hero-description {
+        margin-top: 18px;
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    /* BUTTONS */
+    .hero-buttons {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 28px;
+    }
+
+    .hero-btn {
+        width: 100%;
+        padding: 14px 20px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 360px) {
+
+    .hero-section {
+        padding: 45px 12px;
+    }
+
+    .hero-section .hero-image-wrapper {
+        width: 200px;
+        height: 200px;
+    }
+
+    .hero-social a {
+        width: 125px;
+        height: 48px;
+        font-size: 17px;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-description {
+        font-size: 14px;
+    }
+
+    .hero-btn {
+        font-size: 15px;
+    }
+}
+       /* ABOUT RESPONSIVE */
+@media (max-width: 991px) {
+
+    .about-section {
+        width: 92%;
+        margin: 70px auto;
+        grid-template-columns: 1fr 1fr;
+        gap: 45px 30px;
+    }
+
+    .about-left {
+        transform: none;
+        min-width: 0;
+    }
+
+    .experience {
+        margin-bottom: 25px;
+    }
+
+    .experience strong {
+        font-size: 46px;
+        line-height: 1.1;
+    }
+
+    .experience > span {
+        font-size: 28px;
+    }
+
+    .experience p {
+        font-size: 18px;
+    }
+
+    .experience small {
+        font-size: 15px;
+    }
+
+    .profile-image {
+        width: 100%;
+        max-width: 350px;
+        height: 400px;
+    }
+
+    .about-me {
+        margin-top: 0;
+        text-align: left;
+    }
+
+    .about-me h2 {
+        font-size: 55px;
+    }
+
+    .about-me h3 {
+        font-size: 30px;
+    }
+
+    .about-me p {
+        max-width: 100%;
+        font-size: 17px;
+        line-height: 1.8;
+        margin-bottom: 25px;
+    }
+
+    .education {
+        grid-column: 2;
+        margin-top: -10px;
+    }
+
+    .education h2,
+    .certificates h2 {
+        font-size: 36px;
+    }
+
+    .education-item h4 {
+        font-size: 23px;
+    }
+
+    .education-item span {
+        font-size: 17px;
+    }
+
+    .education-item p {
+        font-size: 15px;
+    }
+
+    .certificates {
+        grid-column: 1 / -1;
+        margin-top: 15px;
+    }
+
+    .certificate-box {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .certificate-box img {
+        width: 100%;
+        height: 240px;
+    }
+
+    .tag-1 {
+        left: -15px;
+    }
+
+    .tag-2 {
+        right: -10px;
+    }
+
+    .tag-3 {
+        right: -15px;
+    }
+}
+@media (max-width: 576px) {
+
+    .about-section {
+        width: 92%;
+        margin: 55px auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .about-left {
+        min-height: auto;
+        transform: none;
+    }
+
+    .experience {
+        margin-bottom: 25px;
+    }
+
+    .experience strong {
+        font-size: 42px;
+        line-height: 1;
+    }
+
+    .experience > span {
+        font-size: 25px;
+    }
+
+    .experience p {
+        font-size: 17px;
+    }
+
+    .experience small {
+        font-size: 14px;
+    }
+
+    .profile-image {
+        width: 100%;
+        max-width: 330px;
+        height: 380px;
+        margin: 0 auto 20px;
+        border-radius: 20px;
+    }
+
+    .about-left .profile-image + .profile-image {
+        margin-top: 20px;
+    }
+
+    /* FLOATING TAGS */
+
+    .tag {
+        padding: 8px 13px;
+        font-size: 11px;
+    }
+
+    .tag-1 {
+        left: -8px;
+        top: 150px;
+    }
+
+    .tag-2 {
+        right: -8px;
+        top: 105px;
+    }
+
+    .tag-3 {
+        right: -8px;
+        top: 330px;
+    }
+
+    /* ABOUT TEXT */
+
+    .about-me {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .about-me h2 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .about-me h2::after {
+        bottom: -6px;
+    }
+
+    .about-me h3 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .about-me p {
+        max-width: 100%;
+        margin: 0 auto 22px;
+        font-size: 16px;
+        line-height: 1.75;
+    }
+
+    /* EDUCATION */
+
+    .education {
+        grid-column: auto;
+        margin-top: 0;
+    }
+
+    .education h2,
+    .certificates h2 {
+        font-size: 34px;
+        margin-bottom: 22px;
+    }
+
+    .education-item {
+        margin-bottom: 22px;
+        padding-left: 12px;
+    }
+
+    .education-item h4 {
+        font-size: 21px;
+    }
+
+    .education-item span {
+        font-size: 15px;
+    }
+
+    .education-item p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* CERTIFICATES */
+
+    .certificates {
+        grid-column: auto;
+        margin-top: 10px;
+    }
+
+    .certificate-box {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding-left: 10px;
+    }
+
+    .certificate-box img {
+        width: 100%;
+        height: 170px;
+        border-radius: 7px;
+    }
+}
+@media (max-width: 360px) {
+
+    .about-section {
+        width: 94%;
+        gap: 35px;
+    }
+
+    .experience strong {
+        font-size: 36px;
+    }
+
+    .experience > span {
+        font-size: 22px;
+    }
+
+    .experience p {
+        font-size: 15px;
+    }
+
+    .experience small {
+        font-size: 12px;
+    }
+
+    .profile-image {
+        height: 330px;
+    }
+
+    .tag {
+        padding: 7px 10px;
+        font-size: 10px;
+    }
+
+    .tag-1 {
+        left: -5px;
+        top: 130px;
+    }
+
+    .tag-2 {
+        right: -5px;
+        top: 90px;
+    }
+
+    .tag-3 {
+        right: -5px;
+        top: 285px;
+    }
+
+    .about-me h2 {
+        font-size: 38px;
+    }
+
+    .about-me h3 {
+        font-size: 22px;
+    }
+
+    .about-me p {
+        font-size: 14px;
+    }
+
+    .education h2,
+    .certificates h2 {
+        font-size: 30px;
+    }
+
+    .education-item h4 {
+        font-size: 19px;
+    }
+
+    .education-item p {
+        font-size: 13px;
+    }
+
+    .certificate-box img {
+        height: 140px;
+    }
+}
+   /* SKILLS  RESPONSIVE */
+@media (max-width: 991px) {
+
+    .skills-section {
+        padding: 80px 20px;
+    }
+
+    .skills-section .section-title {
+        font-size: 38px;
+    }
+
+    .skills-section .section-subtitle {
+        max-width: 600px;
+        font-size: 15px;
+    }
+
+    .skill-card {
+        padding: 22px;
+    }
+
+    .skill-name {
+        font-size: 16px;
+    }
+
+    .skill-percentage {
+        font-size: 15px;
+    }
+}
+@media (max-width: 576px) {
+
+    .skills-section {
+        padding: 60px 15px;
+    }
+
+    .skills-section .badge-soft {
+        padding: 7px 15px;
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+
+    .skills-section .section-title {
+        margin-top: 12px;
+        font-size: 30px;
+        letter-spacing: -0.5px;
+    }
+
+    .skills-section .section-subtitle {
+        padding: 0 5px;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .skill-card {
+        padding: 20px;
+        border-radius: 16px;
+    }
+
+    .skill-header {
+        margin-bottom: 12px;
+        gap: 10px;
+    }
+
+    .skill-name {
+        font-size: 15px;
+    }
+
+    .skill-percentage {
+        font-size: 14px;
+    }
+
+    .progress {
+        height: 9px;
+    }
+}
+@media (max-width: 360px) {
+
+    .skills-section {
+        padding: 50px 12px;
+    }
+
+    .skills-section .section-title {
+        font-size: 27px;
+    }
+
+    .skills-section .section-subtitle {
+        font-size: 13px;
+    }
+
+    .skill-card {
+        padding: 17px;
+        border-radius: 14px;
+    }
+
+    .skill-name {
+        font-size: 14px;
+    }
+
+    .skill-percentage {
+        font-size: 13px;
+    }
+
+    .progress {
+        height: 8px;
+    }
+}
+    /* PROJECT RESPONSIVE   */
+    @media (max-width: 991px) {
+
+    #projects {
+        padding: 80px 20px;
+    }
+
+    #projects .section-title {
+        font-size: 38px;
+    }
+
+    #projects .section-subtitle {
+        font-size: 15px;
+        margin-bottom: 35px;
+    }
+
+    .project-card {
+        border-radius: 18px;
+    }
+
+    .project-image {
+        height: 220px;
+    }
+
+    .project-content {
+        padding: 22px;
+    }
+
+    .project-content h3 {
+        font-size: 22px;
+    }
+
+    .project-content p {
+        min-height: auto;
+        font-size: 14px;
+    }
+
+    .project-technologies {
+        gap: 7px;
+    }
+
+    .project-technologies span {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    #projectModal .modal-dialog {
+        margin: 20px;
+    }
+
+    #projectModal .modal-body {
+        padding: 22px;
+    }
+
+    .project-lightbox {
+        padding: 30px;
+    }
+
+    .lightbox-image {
+        max-width: 94%;
+        max-height: 78vh;
+    }
+}
+@media (max-width: 576px) {
+
+    #projects {
+        padding: 60px 15px;
+    }
+
+    #projects .badge-soft {
+        font-size: 11px;
+        padding: 7px 15px;
+    }
+
+    #projects .section-title {
+        font-size: 30px;
+        letter-spacing: -0.5px;
+    }
+
+    #projects .section-title:hover {
+        letter-spacing: 0;
+        transform: none;
+    }
+
+    #projects .section-subtitle {
+        font-size: 14px;
+        line-height: 1.7;
+        margin-bottom: 30px;
+    }
+
+    .project-card {
+        border-radius: 16px;
+    }
+
+    .project-image {
+        height: 200px;
+    }
+
+    .project-image-wrapper::after {
+        width: 45px;
+        height: 45px;
+        font-size: 23px;
+    }
+
+    .project-content {
+        padding: 20px;
+    }
+
+    .project-category {
+        font-size: 11px;
+        padding: 6px 11px;
+    }
+
+    .project-content h3 {
+        font-size: 21px;
+        margin-bottom: 9px;
+    }
+
+    .project-content p {
+        min-height: auto;
+        font-size: 14px;
+        line-height: 1.7;
+        margin-bottom: 16px;
+    }
+
+    .project-technologies {
+        gap: 6px;
+        margin-bottom: 18px;
+    }
+
+    .project-technologies span {
+        padding: 5px 9px;
+        font-size: 11px;
+    }
+
+    .view-project-btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+
+    /* MODAL */
+
+    #projectModal .modal-dialog {
+        margin: 12px;
+    }
+
+    #projectModal .modal-content {
+        border-radius: 16px;
+    }
+
+    #projectModal .modal-header {
+        padding: 16px 18px;
+    }
+
+    #projectModal .modal-title {
+        font-size: 19px;
+    }
+
+    #projectModal .modal-body {
+        padding: 18px;
+    }
+
+    #projectModal .modal-body img {
+        max-height: 250px;
+        border-radius: 12px;
+    }
+
+    #projectModal .modal-body p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    #projectModal .modal-body h5 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    #projectModal .modal-body li {
+        font-size: 14px;
+    }
+
+    #projectModal .d-flex {
+        flex-direction: column;
+        gap: 10px !important;
+    }
+
+    #projectModal .btn {
+        width: 100%;
+        font-size: 14px;
+    }
+
+
+    /* LIGHTBOX */
+
+    .project-lightbox {
+        padding: 20px;
+    }
+
+    .lightbox-image {
+        max-width: 96%;
+        max-height: 72vh;
+        border-radius: 10px;
+    }
+
+    .lightbox-close {
+        top: 15px;
+        right: 15px;
+        width: 40px;
+        height: 40px;
+        font-size: 25px;
+    }
+
+    .lightbox-title {
+        bottom: 18px;
+        max-width: 85%;
+        padding: 7px 14px;
+        font-size: 12px;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+@media (max-width: 380px) {
+
+    #projects {
+        padding: 50px 12px;
+    }
+
+    #projects .section-title {
+        font-size: 27px;
+    }
+
+    .project-image {
+        height: 180px;
+    }
+
+    .project-content {
+        padding: 17px;
+    }
+
+    .project-content h3 {
+        font-size: 19px;
+    }
+
+    .project-content p {
+        font-size: 13px;
+    }
+
+    .project-technologies span {
+        font-size: 10px;
+        padding: 5px 8px;
+    }
+
+    .lightbox-image {
+        max-width: 98%;
+    }
+}
+             /* SERVICE RESPONSIVE  */
+@media (max-width: 991px) {
+
+    .services-section {
+        padding: 80px 20px;
+    }
+
+    .services-section .text-center {
+        margin-bottom: 45px;
+    }
+
+    .services-section .badge-soft {
+        top: 0;
+        left: 0;
+        font-size: 13px;
+        padding: 8px 17px;
+    }
+
+    .services-section .section-title {
+        font-size: 42px;
+    }
+
+    .services-section .section-subtitle {
+        max-width: 600px;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .service-card {
+        padding: 30px 25px;
+        border-radius: 20px;
+    }
+
+    .service-icon {
+        width: 62px;
+        height: 62px;
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .service-card h3 {
+        font-size: 23px;
+    }
+
+    .service-card p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .service-number {
+        right: 20px;
+        bottom: 15px;
+        font-size: 50px;
+    }
+}
+@media (max-width: 576px) {
+
+    .services-section {
+        padding: 60px 15px;
+    }
+
+    .services-section .text-center {
+        margin-bottom: 38px;
+    }
+
+    .services-section .badge-soft {
+        top: 0;
+        left: 0;
+        padding: 7px 15px;
+        margin-bottom: 8px;
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+
+    .services-section .section-title {
+        font-size: 34px;
+        line-height: 1.2;
+        letter-spacing: -0.5px;
+    }
+
+    .services-section .section-title:hover {
+        transform: none;
+        letter-spacing: 0;
+    }
+
+    .services-section .section-title::after {
+        width: 50px;
+        height: 3px;
+        bottom: -9px;
+    }
+
+    .services-section .section-title:hover::after {
+        width: 75px;
+    }
+
+    .services-section .section-subtitle {
+        max-width: 100%;
+        padding: 0 8px;
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .service-card {
+        padding: 27px 22px;
+        border-radius: 18px;
+    }
+
+    .service-icon {
+        width: 58px;
+        height: 58px;
+        margin-bottom: 18px;
+        border-radius: 16px;
+        font-size: 25px;
+    }
+
+    .service-card h3 {
+        margin-bottom: 11px;
+        font-size: 21px;
+    }
+
+    .service-card p {
+        padding-right: 15px;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .service-number {
+        right: 17px;
+        bottom: 12px;
+        font-size: 42px;
+    }
+
+    .service-card:hover {
+        transform: translateY(-6px);
+    }
+
+    .service-card:hover .service-icon {
+        transform: translateY(-3px) rotate(-4deg) scale(1.05);
+    }
+}
+@media (max-width: 380px) {
+
+    .services-section {
+        padding: 50px 12px;
+    }
+
+    .services-section .section-title {
+        font-size: 29px;
+    }
+
+    .services-section .section-subtitle {
+        font-size: 13px;
+    }
+
+    .service-card {
+        padding: 23px 18px;
+        border-radius: 16px;
+    }
+
+    .service-icon {
+        width: 54px;
+        height: 54px;
+        font-size: 23px;
+    }
+
+    .service-card h3 {
+        font-size: 19px;
+    }
+
+    .service-card p {
+        padding-right: 10px;
+        font-size: 13px;
+    }
+
+    .service-number {
+        right: 14px;
+        bottom: 10px;
+        font-size: 36px;
+    }
+}
+            /* EXPERIENCE + EDUCATION RESPONSIVE   */
+@media (max-width: 991px) {
+
+    .education-section {
+        padding: 80px 20px;
+    }
+
+    .education-section .section-title {
+        font-size: 38px;
+    }
+
+    .education-card {
+        padding: 25px 28px;
+    }
+
+    .experience-section {
+        padding: 70px 20px;
+    }
+
+    .experience-card {
+        max-width: 100%;
+    }
+
+    .work-education-heading {
+        padding: 75px 20px 40px;
+    }
+
+    .work-education-heading .section-title {
+        font-size: 38px;
+    }
+}
+@media (max-width: 576px) {
+
+    .education-section {
+        padding: 65px 15px;
+    }
+
+    .education-section .section-title {
+        font-size: 32px;
+    }
+
+    .education-section .section-subtitle {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .education-section .row {
+        padding: 10px 0;
+    }
+
+    .education-section .row::before {
+        left: 16px;
+    }
+
+    .education-section .col-lg-6 {
+        margin-bottom: 35px;
+    }
+
+    .education-card {
+        width: calc(100% - 55px);
+        margin-left: 55px;
+        padding: 22px 20px;
+        border-radius: 15px;
+    }
+
+    .education-card::before {
+        left: -55px;
+        top: 20px;
+        width: 34px;
+        height: 34px;
+    }
+
+    .education-card::after {
+        left: -45px;
+        top: 30px;
+        width: 14px;
+        height: 14px;
+    }
+
+    .education-card h3 {
+        font-size: 21px;
+    }
+
+    .education-card h5 {
+        font-size: 15px;
+    }
+
+    .education-card span {
+        padding: 8px 14px;
+        font-size: 13px;
+        white-space: normal;
+    }
+
+    .education-card p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+
+    /* EXPERIENCE MOBILE */
+
+    .experience-section {
+        padding: 60px 15px;
+    }
+
+    .experience-card {
+        width: 100%;
+        margin: 0 auto 20px;
+        padding: 90px 22px 25px;
+        border-radius: 16px;
+    }
+
+    .experience-card::before {
+        top: 20px;
+        left: 22px;
+        width: 52px;
+        height: 52px;
+        font-size: 21px;
+    }
+
+    .experience-card h3 {
+        font-size: 20px;
+    }
+
+    .experience-card h5 {
+        font-size: 14px;
+    }
+
+    .experience-card span {
+        min-width: auto;
+        padding: 9px 15px;
+        font-size: 13px;
+    }
+
+    .experience-card p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+
+    /* HEADING MOBILE */
+
+    .work-education-heading {
+        padding: 65px 15px 35px;
+    }
+
+    .work-education-heading .badge-soft {
+        font-size: 12px;
+        padding: 7px 14px;
+    }
+
+    .work-education-heading .section-title {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+}
+@media (max-width:380px) {
+
+    .education-section {
+        padding: 55px 12px;
+    }
+
+    .education-section .section-title {
+        font-size: 28px;
+    }
+
+    .education-card {
+        width: calc(100% - 45px);
+        margin-left: 45px;
+        padding: 20px 16px;
+    }
+
+    .education-section .row::before {
+        left: 13px;
+    }
+
+    .education-card::before {
+        left: -45px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .education-card::after {
+        left: -36px;
+        top: 28px;
+        width: 12px;
+        height: 12px;
+    }
+
+    .education-card h3 {
+        font-size: 19px;
+    }
+
+    .education-card h5 {
+        font-size: 14px;
+    }
+
+    .education-card p {
+        font-size: 13px;
+    }
+
+    .experience-card {
+        padding: 82px 18px 22px;
+    }
+
+    .experience-card::before {
+        left: 18px;
+        width: 48px;
+        height: 48px;
+        font-size: 19px;
+    }
+
+    .experience-card h3 {
+        font-size: 18px;
+    }
+
+    .experience-card p {
+        font-size: 13px;
+    }
+
+    .work-education-heading .section-title {
+        font-size: 26px;
+    }
+}
+            /*  CONTACT RESPONSIVE   */
+@media (max-width: 991px) {
+
+    .contact-section {
+        padding: 80px 20px;
+    }
+
+    .contact-section .container {
+        max-width: 760px;
+    }
+
+    .contact-heading {
+        margin-bottom: 40px;
+    }
+
+    .contact-heading h2 {
+        font-size: 36px;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .contact-info-card,
+    .contact-form-card {
+        padding: 30px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+}
+@media (max-width: 576px) {
+
+    .contact-section {
+        padding: 65px 15px;
+    }
+
+    .contact-section .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contact-heading {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .contact-badge {
+        font-size: 12px;
+        padding: 6px 14px;
+    }
+
+    .contact-heading h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .contact-heading p {
+        font-size: 14px;
+        line-height: 1.7;
+        padding: 0 5px;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .contact-info-card,
+    .contact-form-card {
+        padding: 24px 20px;
+        border-radius: 16px;
+    }
+
+    .contact-info-card:hover,
+    .contact-form-card:hover {
+        transform: none;
+    }
+
+    .contact-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+
+    .contact-info-card h3,
+    .contact-form-card h3 {
+        font-size: 22px;
+    }
+
+    .contact-info-card > p {
+        font-size: 14px;
+        line-height: 1.7;
+        margin-bottom: 20px;
+    }
+
+    .contact-item {
+        gap: 12px;
+        padding: 13px 0;
+    }
+
+    .contact-item > i {
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        font-size: 16px;
+    }
+
+    .contact-item strong {
+        font-size: 14px;
+    }
+
+    .contact-item span {
+        font-size: 12px;
+        word-break: break-word;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .form-group {
+        margin-bottom: 17px;
+    }
+
+    .form-group input {
+        height: 46px;
+    }
+
+    .form-group textarea {
+        min-height: 120px;
+    }
+
+    .send-btn {
+        padding: 13px 18px;
+    }
+
+    .social-card {
+        margin-top: 20px;
+        padding: 22px 15px;
+        border-radius: 16px;
+    }
+
+    .social-card h3 {
+        font-size: 18px;
+    }
+
+}
+@media (max-width: 380px) {
+
+    .contact-section {
+        padding: 55px 12px;
+    }
+
+    .contact-heading h2 {
+        font-size: 27px;
+    }
+
+    .contact-heading p {
+        font-size: 13px;
+    }
+
+    .contact-info-card,
+    .contact-form-card {
+        padding: 20px 16px;
+    }
+
+    .contact-info-card h3,
+    .contact-form-card h3 {
+        font-size: 20px;
+    }
+
+    .contact-item {
+        align-items: flex-start;
+    }
+
+    .contact-item > i {
+        flex-shrink: 0;
+    }
+
+    .social-icons {
+        gap: 9px;
+        flex-wrap: wrap;
+    }
+
+    .social-icons a {
+        width: 42px;
+        height: 42px;
+        font-size: 17px;
+    }
+
+}
+               /* FOOTER RESPONSIVE  */
+@media (max-width: 991px) {
+
+    .footer {
+        padding: 35px 30px 0;
+    }
+
+    .footer-top {
+        gap: 25px;
+    }
+
+    .footer-top h2 {
+        font-size: 28px;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr 1fr;
+        gap: 35px 25px;
+    }
+
+    .footer-bottom {
+        margin: 0 -30px;
+        padding: 15px 30px;
+    }
+
+}
+@media (max-width: 767px) {
+
+    .footer {
+        padding: 35px 20px 0;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding-bottom: 25px;
+    }
+
+    .footer-top h2 {
+        font-size: 25px;
+        line-height: 1.3;
+    }
+
+    .contact-btn {
+        padding: 8px 10px 8px 18px;
+        font-size: 13px;
+    }
+
+    .divider {
+        margin-bottom: 30px;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding-bottom: 30px;
+    }
+
+    .footer-col h3 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .footer-col p,
+    .footer-col ul li {
+        font-size: 13px;
+    }
+
+    .about .logo {
+        font-size: 19px;
+    }
+
+    .social-icons {
+        margin-top: 15px;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .social-icons a {
+        width: 34px;
+        height: 34px;
+    }
+
+    .newsletter-input {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        margin: 0 -20px;
+        padding: 15px 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 8px;
+        line-height: 1.6;
+    }
+
+}
+@media (max-width: 380px) {
+
+    .footer {
+        padding: 30px 15px 0;
+    }
+
+    .footer-top h2 {
+        font-size: 22px;
+    }
+
+    .contact-btn {
+        font-size: 12px;
+    }
+
+    .footer-content {
+        gap: 25px;
+    }
+
+    .footer-col p,
+    .footer-col ul li {
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+    .newsletter-input input {
+        font-size: 11px;
+    }
+
+    .footer-bottom {
+        margin: 0 -15px;
+        padding: 14px 15px;
+        font-size: 11px;
+    }
+
+}  
+       /* THEME TOGGLES RESPONSIVE   */
+@media (max-width: 991px) {
+
+    /* COMMON */
+    .container {
+        max-width: 90%;
+    }
+
+
+    .about-section {
+        width: 90%;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        margin: 60px auto;
+    }
+
+    .about-left {
+        transform: none;
+    }
+
+    .profile-image {
+        width: 100%;
+        max-width: 350px;
+        height: 420px;
+    }
+
+    .about-me {
+        margin-top: 0;
+        text-align: left;
+    }
+
+    .about-me h2 {
+        font-size: 55px;
+    }
+
+    .about-me h3 {
+        font-size: 32px;
+    }
+
+    .about-me p {
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    .education {
+        grid-column: 1 / -1;
+        margin-top: 10px;
+    }
+
+    .certificates {
+        margin-top: 30px;
+    }
+
+    .certificate-box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .certificate-box img {
+        width: 100%;
+        height: 240px;
+    }
+
+
+    .skills-section {
+        padding: 80px 20px;
+    }
+
+    .skills-section .section-title {
+        font-size: 40px;
+    }
+
+    .skill-card {
+        padding: 22px;
+    }
+
+    #projects {
+        padding: 80px 20px;
+    }
+
+    #projects .section-title {
+        font-size: 40px;
+    }
+
+    .project-image {
+        height: 210px;
+    }
+
+    .project-content {
+        padding: 22px;
+    }
+    .services-section {
+        padding: 80px 20px;
+    }
+
+    .services-section .section-title {
+        font-size: 44px;
+    }
+
+    .service-card {
+        padding: 30px 25px;
+    }
+
+    .education-section {
+        padding: 80px 20px;
+    }
+
+    .education-section .section-title {
+        font-size: 38px;
+    }
+
+    .education-card {
+        width: calc(100% - 60px);
+        margin-left: 60px;
+        padding: 25px 30px;
+    }
+
+    .education-card::before {
+        left: -60px;
+    }
+
+    .education-card::after {
+        left: -47px;
+    }
+
+    .experience-card {
+        width: 90%;
+        padding: 28px 30px 28px 100px;
+    }
+
+    .experience-card::before {
+        left: 25px;
+    }
+
+
+    .contact-section {
+        padding: 80px 20px;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .contact-info-card,
+    .contact-form-card {
+        padding: 30px;
+    }
+
+    .footer {
+        padding: 40px 35px 0;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr 1fr;
+        gap: 35px;
+    }
+
+    .footer-bottom {
+        margin: 0 -35px;
+        padding: 15px 35px;
+    }
+
+}
+@media (max-width: 576px) {
+
+    /* COMMON */
+
+    .container {
+        width: 92%;
+        max-width: 92%;
+    }
+
+    .about-section {
+        width: 92%;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        margin: 45px auto;
+    }
+
+    .about-left {
+        width: 100%;
+        transform: none;
+    }
+
+    .experience {
+        margin-bottom: 25px;
+    }
+
+    .experience > span {
+        font-size: 25px;
+    }
+
+    .experience strong {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .experience p {
+        font-size: 17px;
+    }
+
+    .experience small {
+        font-size: 15px;
+    }
+
+    .profile-image {
+        width: 100%;
+        max-width: 100%;
+        height: 380px;
+    }
+
+    .tag {
+        padding: 8px 13px;
+        font-size: 11px;
+    }
+
+    .tag-1 {
+        left: -5px;
+        top: 150px;
+    }
+
+    .tag-2 {
+        right: -5px;
+        top: 100px;
+    }
+
+    .tag-3 {
+        right: -5px;
+        top: 300px;
+    }
+
+    .about-me {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .about-me h2 {
+        font-size: 42px;
+    }
+
+    .about-me h3 {
+        font-size: 27px;
+    }
+
+    .about-me p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .education {
+        margin-top: 10px;
+    }
+
+    .education h2,
+    .certificates h2 {
+        font-size: 34px;
+    }
+
+    .education-item h4 {
+        font-size: 24px;
+    }
+
+    .education-item span {
+        font-size: 16px;
+    }
+
+    .education-item p {
+        font-size: 15px;
+    }
+
+    .certificate-box {
+        grid-template-columns: 1fr;
+    }
+
+    .certificate-box img {
+        width: 100%;
+        height: auto;
+        max-height: 280px;
+    }
+    .skills-section {
+        padding: 65px 15px;
+    }
+
+    .skills-section .badge-soft {
+        font-size: 11px;
+        padding: 8px 15px;
+    }
+
+    .skills-section .section-title {
+        font-size: 34px;
+        letter-spacing: 0;
+    }
+
+    .skills-section .section-subtitle {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .skill-card {
+        padding: 20px;
+        border-radius: 17px;
+    }
+
+    .skill-name {
+        font-size: 15px;
+    }
+
+    .skill-percentage {
+        font-size: 14px;
+    }
+
+    #projects {
+        padding: 65px 15px;
+    }
+
+    #projects .badge-soft {
+        font-size: 11px;
+        padding: 8px 15px;
+    }
+
+    #projects .section-title {
+        font-size: 34px;
+        letter-spacing: 0;
+    }
+
+    #projects .section-subtitle {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .project-card {
+        border-radius: 17px;
+    }
+
+    .project-image {
+        height: 200px;
+    }
+
+    .project-content {
+        padding: 20px;
+    }
+
+    .project-content h3 {
+        font-size: 21px;
+    }
+
+    .project-content p {
+        font-size: 13px;
+    }
+
+    .services-section {
+        padding: 65px 15px;
+    }
+
+    .services-section .text-center {
+        margin-bottom: 40px;
+    }
+
+    .services-section .badge-soft {
+        font-size: 11px;
+        padding: 8px 15px;
+        position: static;
+    }
+
+    .services-section .section-title {
+        font-size: 36px;
+        letter-spacing: 0;
+    }
+
+    .services-section .section-subtitle {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .service-card {
+        padding: 25px 22px;
+        border-radius: 18px;
+    }
+
+    .service-icon {
+        width: 58px;
+        height: 58px;
+        font-size: 26px;
+    }
+
+    .service-card h3 {
+        font-size: 22px;
+    }
+
+    .service-card p {
+        font-size: 14px;
+    }
+
+    .service-number {
+        font-size: 45px;
+    }
+
+    .education-section {
+        padding: 65px 15px;
+    }
+
+    .education-section .section-title {
+        font-size: 34px;
+    }
+
+    .education-section .section-subtitle {
+        font-size: 14px;
+    }
+
+    .education-section .row {
+        padding: 15px 0;
+    }
+
+    .education-section .row::before {
+        left: 15px;
+    }
+
+    .education-card {
+        width: calc(100% - 45px);
+        margin-left: 45px;
+        padding: 22px 20px;
+        border-radius: 16px;
+    }
+
+    .education-card::before {
+        left: -45px;
+        width: 34px;
+        height: 34px;
+    }
+
+    .education-card::after {
+        left: -35px;
+        top: 10px;
+        width: 14px;
+        height: 14px;
+    }
+
+    .education-card h3 {
+        font-size: 22px;
+    }
+
+    .education-card h5 {
+        font-size: 16px;
+    }
+
+    .education-card span {
+        font-size: 13px;
+        padding: 8px 16px;
+    }
+
+    .education-card p {
+        font-size: 14px;
+    }
+    .work-education-heading {
+        padding: 65px 15px 35px;
+    }
+
+    .work-education-heading .section-title {
+        font-size: 34px;
+    }
+
+    .experience-card {
+        width: 92%;
+        padding: 90px 22px 25px;
+        margin: 0 auto 22px;
+        border-radius: 17px;
+    }
+
+    .experience-card::before {
+        left: 22px;
+        top: 20px;
+        width: 52px;
+        height: 52px;
+        font-size: 21px;
+    }
+
+    .experience-card h3 {
+        font-size: 20px;
+    }
+
+    .experience-card h5 {
+        font-size: 14px;
+    }
+
+    .experience-card span {
+        font-size: 13px;
+        padding: 9px 16px;
+    }
+
+    .experience-card p {
+        font-size: 14px;
+    }
+
+    .contact-section {
+        padding: 65px 15px;
+    }
+
+    .contact-heading {
+        margin-bottom: 35px;
+        text-align: center;
+    }
+
+    .contact-badge {
+        font-size: 11px;
+    }
+
+    .contact-heading h2 {
+        font-size: 34px;
+    }
+
+    .contact-heading p {
+        font-size: 14px;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .contact-info-card,
+    .contact-form-card {
+        padding: 24px 20px;
+        border-radius: 17px;
+    }
+
+    .contact-info-card h3,
+    .contact-form-card h3 {
+        font-size: 22px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .form-group input {
+        height: 46px;
+    }
+
+    .form-group textarea {
+        min-height: 120px;
+    }
+
+    .social-card {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .footer {
+        padding: 35px 20px 0;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .footer-top h2 {
+        font-size: 27px;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .footer-bottom {
+        margin: 0 -20px;
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+}
+@media (max-width: 380px) {
+
+  
+
+    .about-section {
+        width: 94%;
+    }
+
+    .experience strong {
+        font-size: 34px;
+    }
+
+    .experience p {
+        font-size: 15px;
+    }
+
+    .experience small {
+        font-size: 13px;
+    }
+
+    .profile-image {
+        height: 330px;
+    }
+
+    .about-me h2 {
+        font-size: 36px;
+    }
+
+    .about-me h3 {
+        font-size: 23px;
+    }
+
+    .about-me p {
+        font-size: 14px;
+    }
+
+
+    /* SKILLS */
+
+    .skills-section .section-title {
+        font-size: 30px;
+    }
+
+    .skill-card {
+        padding: 17px;
+    }
+
+    .skill-name {
+        font-size: 14px;
+    }
+
+    .skill-percentage {
+        font-size: 13px;
+    }
+
+    .progress {
+        height: 9px;
+    }
+
+
+    /* PROJECTS */
+
+    #projects .section-title {
+        font-size: 30px;
+    }
+
+    .project-image {
+        height: 175px;
+    }
+
+    .project-content {
+        padding: 17px;
+    }
+
+    .project-content h3 {
+        font-size: 19px;
+    }
+
+
+    /* SERVICES */
+
+    .services-section .section-title {
+        font-size: 31px;
+    }
+
+    .service-card {
+        padding: 22px 18px;
+    }
+
+    .service-card h3 {
+        font-size: 20px;
+    }
+
+    .service-card p {
+        font-size: 13px;
+    }
+
+
+    /* EDUCATION */
+
+    .education-section .section-title {
+        font-size: 30px;
+    }
+
+    .education-card {
+        width: calc(100% - 38px);
+        margin-left: 38px;
+        padding: 20px 17px;
+    }
+
+    .education-card::before {
+        left: -38px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .education-card::after {
+        left: -29px;
+        top: 8px;
+        width: 12px;
+        height: 12px;
+    }
+
+    .education-card h3 {
+        font-size: 19px;
+    }
+
+    .education-card h5 {
+        font-size: 14px;
+    }
+
+    .education-card span {
+        font-size: 12px;
+        padding: 7px 12px;
+    }
+
+    .education-card p {
+        font-size: 13px;
+    }
+    .experience-card {
+        width: 94%;
+        padding: 82px 18px 22px;
+    }
+
+    .experience-card h3 {
+        font-size: 18px;
+    }
+
+    .experience-card p {
+        font-size: 13px;
+    }
+    .contact-heading h2 {
+        font-size: 30px;
+    }
+
+    .contact-info-card,
+    .contact-form-card {
+        padding: 20px 16px;
+    }
+
+    .contact-item {
+        gap: 10px;
+    }
+
+    .contact-item > i {
+        width: 38px;
+        height: 38px;
+        min-width: 38px;
+        font-size: 15px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 13px;
+    }
+    .footer {
+        padding: 30px 15px 0;
+    }
+
+    .footer-top h2 {
+        font-size: 24px;
+    }
+
+    .footer-content {
+        gap: 25px;
+    }
+
+    .footer-bottom {
+        margin: 0 -15px;
+        padding: 14px 15px;
+        font-size: 11px;
+    }
+
+}   
