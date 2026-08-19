@@ -1,8 +1,8 @@
-# Aisha Haris - Portfolio
+# Aisha Haris - Personal Portfolio
 
 ## Project Description
 
-This is my personal portfolio website created to showcase my skills, projects, education, and experience as a Frontend Web Developer. The website has a modern, responsive, and user-friendly design.
+This is my personal portfolio website created to showcase my skills, projects, education, experience, and professional information. The website is designed with a modern, responsive, and user-friendly interface.
 
 ## Technologies Used
 
@@ -10,28 +10,32 @@ This is my personal portfolio website created to showcase my skills, projects, e
 - CSS3
 - Bootstrap 5
 - JavaScript
-- jQuery
 - Bootstrap Icons
 
 ## Features
 
-- Responsive design for desktop, tablet, and mobile
-- Modern and clean user interface
-- Light and dark theme
+- Responsive personal portfolio website
+- Home / Hero section
 - About Me section
-- Skills section
-- Education section
+- Skills section with dynamic data
 - Projects section
-- Contact section
-- Contact form with validation
-- Social media links
-- Smooth animations and hover effects
+- Dynamic project details using Bootstrap Modal
+- Education section
+- Experience section
+- Contact section with contact form
+- Mobile responsive navigation
+- Dark / Light mode
+- Interactive buttons and animations
+- GitHub and live project links
 
 ## How to Run the Project
 
-1. Download or clone the project files.
-2. Open the project folder.
-3. Open `index.html` in any modern web browser.
-4. The portfolio website will run directly in the browser.
+1. Download or clone this repository.
+2. Open the project folder in Visual Studio Code.
+3. Open `index.html` in your browser.
+4. For the best experience, use the Live Server extension in VS Code.
 
-No additional installation or setup is required.
+## Author
+
+**Aisha Haris**  
+Frontend Web Developer
